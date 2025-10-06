@@ -557,7 +557,9 @@ git merge <branchname>
 
 ### 9) Pull Requests
 ```bash
-git pull origin <branchname>  # Fetch and merge changes from remote
+create file on github
+commit changes
+git pull # Fetch and merge changes from remote
 ```
 
 ### 10) Fetch Updates
@@ -570,10 +572,15 @@ git fetch origin main     # Fetch main branch updates
 ### 11) Push vs Fetch
 - `git push`: Upload local changes to remote repo
 - `git fetch`: Update remote tracking branches without changing local code
+ ```bash
+
+ ```
 
 ### 12) Show Commits
 ```bash
+git log  # Show all branches commit 
 git log <branchname>  # Show commit history
+git show <commitId>  #Show a perticular commit 
 ```
 
 ### 13) Forking
